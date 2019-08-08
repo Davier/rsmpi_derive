@@ -1,0 +1,22 @@
+[package]
+name = "mpi-derive"
+version = "0.1.0"
+authors = ["Brice DAVIER <bricedavier@gmail.com>"]
+edition = "2018"
+description = "Provide a derive macro for the trait `mpi::datatype::traits::Equivalence`"
+repository = "https://github.com/davier/rsmpi_derive"
+keywords = ["parallel", "message-passing", "derive"]
+categories = ["Procedural macro helpers", "Concurrency"]
+license = "MIT/Apache-2.0"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+mpi = "0.5"
+quote = "0.6"
+proc-macro2 = "0.4"
+
+[dependencies.syn]
+version = "0.15"
+#features = ["extra-traits"]
