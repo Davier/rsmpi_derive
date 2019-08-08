@@ -1,7 +1,7 @@
 //! # mpi_derive
-//! Provide a derive macro for the trait `mpi::datatype::traits::Equivalence`.
+//! Provide a derive macro for the trait `mpi::datatype::Equivalence`.
 //!
-//! The macro works only for plain structures composed recursively of of:
+//! The macro works only for plain structures composed recursively of:
 //! - types that implement the `Equivalence` trait
 //! - arrays of those types
 //! - tuples of those types
